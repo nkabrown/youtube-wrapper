@@ -13,7 +13,12 @@ function onYouTubeIframeAPIReady() {
     width: '640',
     videoId: video
   });
-  console.log(player);
 }
 
 // on click event player.loadVideoById(video);
+d3.selectAll('.video-slot')
+    .on('click', function(d) {
+      var selected = d3.select(this);
+      video = selected[0][0].dataset.val;
+      player.loadVideoById(video);
+    });

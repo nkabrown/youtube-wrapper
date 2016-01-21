@@ -7,6 +7,12 @@ header {
   height: 150px;
 }
 
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: 40pt;
+  text-align: center;
+}
+
 .video-list {
   float: right;
   width: 40%;
@@ -27,4 +33,10 @@ header {
 .video-title {
   text-align: center;
   font-family: "Oswald", sans-serif;
+}
+
+.byline {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 32pt;
 }
