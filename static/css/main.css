@@ -6,3 +6,25 @@
 header {
   height: 150px;
 }
+
+.video-list {
+  float: right;
+  width: 40%;
+}
+
+.vid-container {
+  height: 360px;
+  margin: 0 auto;
+  margin-left: 25px;
+  border: 1px solid #444;
+  overflow: scroll;
+}
+
+.video-slot {
+  border: 1px solid #666;
+}
+
+.video-title {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
