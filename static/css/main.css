@@ -4,7 +4,15 @@
 }
 
 header {
-  height: 150px;
+  height: 190px;
+  width: 325px;
+  margin: 0 auto;
+}
+
+img {
+  width: 325px;
+  height: 160px;
+  text-align: center;
 }
 
 .title {
