@@ -43,6 +43,11 @@ img {
   font-family: "Oswald", sans-serif;
 }
 
+.video-title:hover {
+  color: #b5e4c5;
+  text-shadow: 0.5px 0px 0px #444;
+}
+
 .byline {
   text-align: center;
   font-family: "Oswald", sans-serif;
