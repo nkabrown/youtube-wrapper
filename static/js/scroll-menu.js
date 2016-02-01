@@ -20,5 +20,7 @@ function buildMenu(dataset) {
         player.loadVideoById(video);
         d3.select('.menu-slider')
             .classed('extended', false);
+        d3.select('.slider-control').style('display', 'block');
+        d3.select('.slider-control-extended').style('display', 'none');
       });
 }
