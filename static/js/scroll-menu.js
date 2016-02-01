@@ -18,5 +18,7 @@ function buildMenu(dataset) {
       .on('click', function(d) {
         video = d.id;
         player.loadVideoById(video);
+        d3.select('.menu-slider')
+            .classed('extended', false);
       });
 }

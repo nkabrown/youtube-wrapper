@@ -1,0 +1,45 @@
+.menu-slider {
+  width: 55%;
+  height: 1000px;
+  position: absolute;
+  z-index: 10;
+  left: -600px;
+  top: 0px;
+  border-right: 1px solid #222;
+  background-color: #fff;
+}
+
+.vid-container {
+  width: 55%; 
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.slider-control {
+  font-size: 25pt;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  margin-top: 0;
+}
+
+.slider-control-extended {
+  display: none;
+  font-size: 25pt;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  margin-top: 0;
+}
+
+.menu-slider.extended {
+  width: 55%;
+  height: 1000px;
+  position: absolute;
+  z-index: 10;
+  left: -100px;
+  top: 0px;
+  border-right: 1px solid #222;
+  background-color: #fff;
+}
